@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-image: url(gym.jpg);
+        }
+       .hr{
+            border: 0.5cap solid red;
+            
+        }
+        .label {
+  color: white;
+  padding: 8px;
+  font-family: Arial;
+}
+.dan {background-color: #4d0500;}
+
+       
+    </style>
+
+</head>
+
+<body>
+    
+    <center><h1 style="color: rgb(252, 4, 4);">NO PAIN🏋🏻 NO GAIN💪🏻</h1>
+            
+    </center>
+
+    <hr class="hr" ><br><br><br><br><br><br><br><br>
+    
+    
+    <center>
+   <div>
+    <form action="MENU.html">
+        <label class="label dan">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br> 
+        <label class="label dan">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        <label class="label dan" >Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+       <input type="submit" value="Submit Form" onclick="al()">
+    
+    </form>
+
+    <script>
+        function al()
+        {
+            alert("your form is valid ");
+        }
+    </script>
+      </div> 
+</center>
+</body>
+</html>
